@@ -50,6 +50,7 @@ const Add = ({ token }) => {
     } catch (error) {
       console.log(error);
       toast.error(error.message);
+      console.log(token)
     }
   };
   return (
